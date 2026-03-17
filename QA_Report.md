@@ -221,4 +221,98 @@ I assumed the tone should be professional and authoritative, removing colloquial
 *Generated automatically by the n8n Two-Agent Blog QA & Auto-Patch workflow.*
 
 ---
+
+---
+
+## Run — 2026-03-17T15:01:59.720Z
+
+# QA Report — `sample_blog_post.md`
+
+> **Generated:** 2026-03-17T15:01:57.792Z
+> **File:** `sample_blog_post.md` on branch `main`
+> **Pipeline duration:** 21.8s
+
+---
+
+## Summary
+
+✅ **Patch applied.** 4 operation(s) applied.
+
+| Metric | Value |
+|---|---|
+| Issues identified by QA Agent | 4 |
+| Average confidence (QA Agent) | 88.8% |
+| Operations applied | 4 |
+| Lines skipped by Editor Agent (Tier 3) | 0 |
+| Runtime ops failed | 0 |
+| QA Agent loop retries | 1 |
+| Editor Agent loop retries | 0 |
+
+---
+
+## QA Agent Analysis
+
+### Assumptions
+
+I assumed the target audience is a sophisticated B2B practitioner base that values professional, concise, and data-driven language. I treated minor spelling inconsistencies (UK vs US) as errors and informal conversational asides as tone violations.
+
+### Issues Found
+
+### Line 9 — 🟢 `low` · `clarity` · Confidence: 90% · SVR: ❌
+**Issue:** The phrase 'and yet, paradoxically' is redundant and informal.
+**Agent 1 Suggested Fix:** `Most revenue teams know that their CRM is only as good as the data inside it. Recent industry surveys indicate that 82% of revenue teams report significant data quality issues, yet only about a third of companies have automated processes for remediation.`
+
+### Line 43 — 🟡 `medium` · `tone` · Confidence: 85% · SVR: ❌
+**Issue:** The parenthetical '(which, respectfully, never works)' is overly conversational and subjective for a B2B technical guide.
+**Agent 1 Suggested Fix:** `2. Rely on reps to maintain data integrity (a process that historically lacks the necessary consistency to scale)`
+
+### Line 46 — 🟢 `low` · `clarity` · Confidence: 100% · SVR: ❌
+**Issue:** The term 'organisations' uses British spelling while the rest of the text uses American spelling (e.g., 'categorize', 'standardize').
+**Agent 1 Suggested Fix:** `organizations`
+
+### Line 111 — 🟢 `low` · `tone` · Confidence: 80% · SVR: ❌
+**Issue:** The phrase 'across the board' is a cliché that lacks the precision expected by a RevOps audience.
+**Agent 1 Suggested Fix:** `Teams that maintain this discipline often see significant improvements in pipeline velocity and forecast accuracy.`
+
+
+---
+
+## Editor Agent Decisions
+
+#### Line 9 — ✏️ `replace`
+**New Text:** `Most revenue teams know that their CRM is only as good as the data inside it. Recent industry survey…`
+**Rationale:** Removed redundant phrasing and improved professional tone for a RevOps audience.
+
+#### Line 43 — ✏️ `replace`
+**New Text:** `2. Rely on reps to maintain data integrity (a process that historically lacks the necessary consiste…`
+**Rationale:** Replaced conversational, subjective parenthetical with a more objective, professional assessment of sales-led data entry.
+
+#### Line 46 — ✏️ `replace`
+**New Text:** `Consider that even a lean 20-person sales team will typically log over 1,200 CRM activities in a giv…`
+**Rationale:** Corrected spelling to match American English conventions used throughout the document.
+
+#### Line 111 — ✏️ `replace`
+**New Text:** `Teams that maintain this discipline often see significant improvements in pipeline velocity and fore…`
+**Rationale:** Removed cliché and replaced with specific, outcome-oriented language relevant to RevOps metrics.
+
+
+---
+
+## Tier 3 Lines Skipped by Editor Agent
+
+*Lines with confidence < 0.6 where Agent 2 could not find a suitable alternative.*
+
+*None — Agent 2 found fixes for all verified lines.*
+
+---
+
+## Runtime Skipped Operations
+
+*None.*
+
+---
+
+*Generated automatically by the n8n Two-Agent Blog QA & Auto-Patch workflow.*
+
+---
 <!-- next run will append below -->
