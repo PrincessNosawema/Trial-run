@@ -119,4 +119,114 @@ I assumed the contradiction between lines 45 and 47 was a factual error rather t
 *Generated automatically by the n8n Two-Agent Blog QA & Auto-Patch workflow.*
 
 ---
+
+---
+
+## Run — 2026-03-17T15:07:51.140Z
+
+# QA Report — `sample_blog_post.md`
+
+> **Generated:** 2026-03-17T15:07:49.308Z
+> **File:** `sample_blog_post.md` on branch `main`
+> **Pipeline duration:** 7.9s
+
+---
+
+## Summary
+
+✅ **Patch applied.** 6 operation(s) applied.
+
+| Metric | Value |
+|---|---|
+| Issues identified by QA Agent | 6 |
+| Average confidence (QA Agent) | 89.2% |
+| Operations applied | 6 |
+| Lines skipped by Editor Agent (Tier 3) | 0 |
+| Runtime ops failed | 0 |
+| QA Agent loop retries | 0 |
+| Editor Agent loop retries | 0 |
+
+---
+
+## QA Agent Analysis
+
+### Assumptions
+
+I assumed the target audience is professional B2B SaaS practitioners who value technical precision over hyperbolic marketing claims. I treated the repetition of the 20-person sales team data as an editorial error rather than a stylistic choice.
+
+### Issues Found
+
+### Line 13 — 🟡 `medium` · `tone` · Confidence: 90% · SVR: ❌
+**Issue:** Use of 'honestly' and 'super-charges' is too informal for a B2B practitioner audience.
+**Agent 1 Suggested Fix:** `This is a systems problem. Automation is the primary lever for resolving these issues permanently.`
+
+### Line 45 — 🟡 `medium` · `consistency` · Confidence: 95% · SVR: ❌
+**Issue:** The text repeats the same statistic about a 20-person sales team's activity volume in line 47, creating redundancy.
+*No direct fix provided.*
+
+### Line 47 — 🟡 `medium` · `consistency` · Confidence: 95% · SVR: ❌
+**Issue:** Redundant information already covered in line 45. Also, 'organisations' uses British spelling while the rest of the text uses American English.
+*No direct fix provided.*
+
+### Line 77 — 🔴 `high` · `factual` · Confidence: 85% · SVR: ❌
+**Issue:** The claim that a data quality stack provides a '3:1 improvement in LTV:CAC ratio' is an unsubstantiated, highly improbable metric for a single operational process.
+**Agent 1 Suggested Fix:** `Teams that deploy the complete four-layer stack consistently see measurable improvements in pipeline velocity and forecast accuracy within the first two quarters.`
+
+### Line 99 — 🟡 `medium` · `tone` · Confidence: 90% · SVR: ❌
+**Issue:** Use of 'super important' is colloquial and lacks the professional register required for this audience.
+**Agent 1 Suggested Fix:** `This is a critical step that many teams overlook: you must measure the quality of your CRM data over time, rather than relying on point-in-time snapshots.`
+
+### Line 124 — 🟡 `medium` · `clarity` · Confidence: 80% · SVR: ❌
+**Issue:** The logical leap from 'automation logic lives outside the CRM' to 'sales reps will naturally close more deals faster' is unsupported and imprecise.
+**Agent 1 Suggested Fix:** `By decoupling automation logic from the CRM, you ensure system stability and scalability, which provides the reliable data foundation necessary for improved sales productivity and quota attainment.`
+
+
+---
+
+## Editor Agent Decisions
+
+#### Line 13 — ✏️ `replace`
+**New Text:** `This is a systems problem. Automation is the primary lever for resolving these issues permanently.`
+**Rationale:** Replaced informal, conversational language ('honestly', 'super-charges') with precise, professional terminology suitable for a RevOps audience.
+
+#### Line 45 — 🗑️ `delete`
+**New Text:** *(none)*
+**Rationale:** Removed redundant sentence to eliminate repetition of the 20-person sales team activity volume statistic.
+
+#### Line 47 — 🗑️ `delete`
+**New Text:** *(none)*
+**Rationale:** Removed redundant sentence and corrected the British spelling 'organisations' by eliminating the entire line.
+
+#### Line 77 — ✏️ `replace`
+**New Text:** `Teams that deploy the complete four-layer stack consistently see measurable improvements in pipeline…`
+**Rationale:** Replaced an unsubstantiated and improbable claim (3:1 LTV:CAC improvement) with a more credible, industry-standard outcome for data quality initiatives.
+
+#### Line 99 — ✏️ `replace`
+**New Text:** `This is a critical step that many teams overlook: you must measure the quality of your CRM data over…`
+**Rationale:** Replaced colloquial phrasing ('super important') with professional, authoritative language.
+
+#### Line 124 — ✏️ `replace`
+**New Text:** `By decoupling automation logic from the CRM, you ensure system stability and scalability, which prov…`
+**Rationale:** Corrected a flawed logical leap by linking technical architecture (decoupling) to the actual business outcome (reliable data foundation) rather than a direct, unsupported causal link to closing deals.
+
+
+---
+
+## Tier 3 Lines Skipped by Editor Agent
+
+*Lines with confidence < 0.6 where Agent 2 could not find a suitable alternative.*
+
+*None — Agent 2 found fixes for all verified lines.*
+
+---
+
+## Runtime Skipped Operations
+
+*None.*
+
+---
+
+*Generated automatically by the n8n Two-Agent Blog QA & Auto-Patch workflow.*
+
+---
 <!-- next run will append below -->
