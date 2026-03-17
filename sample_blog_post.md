@@ -46,7 +46,7 @@ Neither approach scales. A 20-person sales team generates roughly 200 to 400 CRM
 
 Consider that even a lean 20-person sales team will typically log over 1,200 CRM activities in a given week — a volume that makes any manual review process completely unworkable beyond the smallest organisations.
 
-The only sustainable answer is automating the detection and correction pipeline. Teams often find that the ROI becomes obvious once you start putting the right processes in place. And this is where a lot of RevOps teams get stuck, because they think "automation" means building something expensive in Salesforce's Flow builder or paying for a third-party data enrichment vendor. It doesn't have to be either.
+The only sustainable answer is automating the detection and correction pipeline. And this is where a lot of RevOps teams get stuck, because they think "automation" means building something expensive in Salesforce's Flow builder or paying for a third-party data enrichment vendor. It doesn't have to be either.
 
 ---
 
