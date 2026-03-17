@@ -6,17 +6,17 @@
 
 ## The Uncomfortable Truth About CRM Hygiene
 
-Most revenue teams knows that their CRM is only as good as the data inside it. Yet according to recent industry surveys, 82% of revenue teams report significant data quality issues in their CRM — and yet, paradoxically, only about a third of companies have any automated process for catching and correcting those problems.
+Most revenue teams know that their CRM is only as good as the data inside it. Yet according to recent industry surveys, 82% of revenue teams report significant data quality issues in their CRM — and yet, paradoxically, only about a third of companies have any automated process for catching and correcting those problems.
 
-The result? Deals get routed to the wrong reps. Lead scores fire on stale data. Forecasts are built on contacts that haven't been touched in 18 months. Sales and marketing keep arguing about pipeline health, and there both right: the pipeline looks fine in Salesforce, but the underlying data tells a completely different story.
+Sales and marketing keep arguing about pipeline health, and they're both right: the pipeline looks fine in Salesforce, but the underlying data tells a completely different story.
 
-This isn't a people problem. Its a systems problem. And honestly, automation is the ultimate game-changer that super-charges a team's ability to fix it for good.
+This isn't a people problem. It's a systems problem. And honestly, automation is the ultimate game-changer that super-charges a team's ability to fix it for good.
 
 ---
 
 ## What "CRM Data Quality" Actually Means in Practice
 
-Before we go into solutions, its worth being specific about what bad data actually looks like in a RevOps context, because the term "data quality" gets used to mean everything from duplicate contacts to missing phone numbers. In practice there are four categories that matter most:
+Before we go into solutions, it's worth being specific about what bad data actually looks like in a RevOps context, because the term "data quality" gets used to mean everything from duplicate contacts to missing phone numbers. In practice there are four categories that matter most:
 
 ```
 ┌──────────────────────────────────────────────────────────────────┐
@@ -42,7 +42,7 @@ The traditional answer to data quality in CRM has been either:
 1. Assign someone to audit the data regularly (usually a junior Ops person who hates it)
 2. Rely on reps to keep their own records clean (which, respectfully, never works)
 
-Neither approach scales. A 20-person sales team generates roughly 200 to 400 CRM activities per week. Auditing that manually even once a month is impractical, and once a quarter means you're always working with data that's at least 90 days stale.
+Neither approach scales. A 20-person sales team generates roughly 1,200 to 2,400 CRM activities per week. Auditing that manually even once a month is impractical, and once a quarter means you're always working with data that's at least 90 days stale.
 
 Consider that even a lean 20-person sales team will typically log over 1,200 CRM activities in a given week — a volume that makes any manual review process completely unworkable beyond the smallest organisations.
 
@@ -107,7 +107,7 @@ A simple starting point is a weekly "data health score" that tracks:
 - **Routing accuracy:** Percentage of leads correctly routed on first pass (requires manual audit or A/B comparison)
 - **Duplicate density:** Number of detected duplicates per 1,000 records
 
-Plot these weekly. If the number's go up after you implement an automation, that automation is working. If they don't, you either have the wrong automation or the wrong rules. The key is to revisit your automation logic periodically and make adjustments as needed.
+Plot these weekly. If the numbers go up after you implement an automation, that automation is working. If they don't, you either have the wrong automation or the wrong rules. The key is to revisit your automation logic periodically and make adjustments as needed.
 
 One thing to be aware of: a short-term spike in "bad" metrics right after you start measuring is completely normal and should be expected. Your automations aren't creating bad data — they're surfacing data that was always there but invisible. This is a good thing, even if it looks bad in the first two weeks. Teams that stay on top of this often see significant pipeline improvements across the board.
 
@@ -127,9 +127,9 @@ And because your automation logic now lives outside the CRM and connects via cle
 
 ## Conclusion
 
-Data quality in CRM isn't a one-time cleanup project. Its an ongoing operational discipline, the same way code review or financial reconciliation is an ongoing discipline. The teams that treat it that way — and automate the detection and remediation pipeline — build a compounding advantage over time: better forecasts, better routing, better attribution, and a lot fewer arguments between sales and marketing about whether the pipeline is real.
+Data quality in CRM isn't a one-time cleanup project. It's an ongoing operational discipline, the same way code review or financial reconciliation is an ongoing discipline. The teams that treat it that way — and automate the detection and remediation pipeline — build a compounding advantage over time: better forecasts, better routing, better attribution, and a lot fewer arguments between sales and marketing about whether the pipeline is real.
 
-The teams that don't? Well, you guys keep doing the quarterly cleanup sprint, wonder why the numbers don't add up, and keep rebuilding the same dashboards on top of the same bad data.
+The teams that don't? They keep doing the quarterly cleanup sprint, wonder why the numbers don't add up, and keep rebuilding the same dashboards on top of the same bad data.
 
 Start with one automation. Measure it. Build from there.
 
