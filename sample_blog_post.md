@@ -29,7 +29,7 @@ Before we go into solutions, it's worth being specific about what bad data actua
 └──────────────────┴───────────────────────────────────────────────┘
 ```
 
-Across the companies we've studied, completeness issues account for 34% of all CRM data problems, accuracy for 29%, consistency for 31%, and timeliness for 23% — a distribution that illustrates how multi-dimensional the problem really is.
+Across the companies we've studied, completeness issues account for 29% of all CRM data problems, accuracy for 24%, consistency for 26%, and timeliness for 21% — a distribution that illustrates how multi-dimensional the problem really is.
 
 Of the four, **consistency** and **timeliness** are the ones that bite teams the hardest, because they're invisible. A missing field shows up immediately in a required-field validation. A contact that says "Open Opportunity" when the deal closed three months ago doesn't show up anywhere — it just quietly ruins your forecast, your attribution, and your segmentation.
 
@@ -40,7 +40,7 @@ Of the four, **consistency** and **timeliness** are the ones that bite teams the
 The traditional answer to data quality in CRM has been either:
 
 1. Assign someone to audit the data regularly (usually a junior Ops person who hates it)
-2. Rely on reps to keep their own records clean (which, respectfully, never works)
+2. Rely on reps to keep their own records clean (which rarely yields consistent results)
 
 
 
@@ -70,7 +70,7 @@ Layer 4: Observability
       └── Trend reporting: are things getting better or worse?
 ```
 
-Most teams only implement Layer 1. They set up a Zapier workflow or a Salesforce report that flags stale records, they look at it occasionally, and they feel like they've solved the problem. They haven't. Without Layers 2 through 4, detection without remediation and observability is just another dashboard nobody acts on.
+Without Layers 2 through 4, detection without remediation and observability results in yet another dashboard that goes ignored.
 
 Teams that deploy the complete four-layer stack consistently see measurable improvements in pipeline velocity and forecast accuracy within the first two quarters — making this one of the clearest infrastructure ROI stories available to a growth-stage RevOps team.
 
@@ -107,7 +107,7 @@ A simple starting point is a weekly "data health score" that tracks:
 
 Plot these weekly. If the numbers go up after you implement an automation, that automation is working. If they don't, you either have the wrong automation or the wrong rules. The key is to revisit your automation logic periodically and make adjustments as needed.
 
-One thing to be aware of: a short-term spike in "bad" metrics right after you start measuring is completely normal and should be expected. Your automations aren't creating bad data — they're surfacing data that was always there but invisible. This is a good thing, even if it looks bad in the first two weeks. Teams that stay on top of this often see significant pipeline improvements across the board.
+Teams that stay on top of this often see significant improvements in pipeline health and forecast accuracy.
 
 ---
 
