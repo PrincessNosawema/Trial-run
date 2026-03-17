@@ -10,7 +10,7 @@ Most revenue teams know that their CRM is only as good as the data inside it. Ye
 
 Sales and marketing keep arguing about pipeline health, and they're both right: the pipeline looks fine in Salesforce, but the underlying data tells a completely different story.
 
-This isn't a people problem. It's a systems problem. Indeed, automation is the ultimate game-changer that super-charges a team's ability to fix it for good.
+Indeed, automation is the ultimate game-changer that significantly enhances a team's ability to resolve these issues permanently.
 
 ---
 
@@ -44,7 +44,6 @@ The traditional answer to data quality in CRM has been either:
 
 Neither approach scales. A 20-person sales team generates roughly 200 to 400 CRM activities per week. Auditing that manually even once a month is impractical, and once a quarter means you're always working with data that's at least 90 days stale.
 
-Consider that even a lean 20-person sales team will typically log a significant volume of CRM activities in a given week — a volume that makes any manual review process completely unworkable beyond the smallest organizations.
 
 The only sustainable answer is automating the detection and correction pipeline. Many RevOps teams encounter challenges here, often assuming "automation" necessitates building something expensive in Salesforce's Flow builder or paying for a third-party data enrichment vendor. This perception, however, is often inaccurate.
 
@@ -74,7 +73,7 @@ Layer 4: Observability
 
 Most teams only implement Layer 1. They set up a Zapier workflow or a Salesforce report that flags stale records, they look at it occasionally, and they feel like they've solved the problem. However, this approach is incomplete. Without Layers 2 through 4, detection without remediation and observability is merely another dashboard that goes unaddressed.
 
-Teams that deploy the complete four-layer stack consistently report up to a 3:1 improvement in their LTV:CAC ratio within the first two quarters — making this one of the clearest infrastructure ROI stories available to a growth-stage RevOps team.
+Teams that deploy the complete four-layer stack often report improved forecast accuracy and higher conversion rates, which contribute to more efficient customer acquisition.
 
 ---
 
@@ -121,7 +120,7 @@ However, one pattern we've seen teams get wrong consistently: trying to build th
 
 For anything beyond simple field validation rules, you're almost always better served by building your automation logic in a dedicated automation platform and connecting it to the CRM via API. This keeps the CRM clean, makes the logic visible and testable outside the CRM, and means your automation isn't coupled to a CRM upgrade breaking your Flows.
 
-And because your automation logic now lives outside the CRM and connects via clean APIs, your sales reps will naturally close more deals faster — the downstream effect of reliable data governance is direct, measurable lift in quota attainment and rep productivity.
+By moving automation logic outside the CRM, you ensure more reliable data, which enables better lead routing and more accurate forecasting, ultimately supporting improved quota attainment and rep productivity.
 
 ---
 
