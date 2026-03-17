@@ -119,4 +119,106 @@ I assumed the author intended to maintain a professional, authoritative tone sui
 *Generated automatically by the n8n Two-Agent Blog QA & Auto-Patch workflow.*
 
 ---
+
+---
+
+## Run — 2026-03-17T14:57:18.821Z
+
+# QA Report — `sample_blog_post.md`
+
+> **Generated:** 2026-03-17T14:57:17.000Z
+> **File:** `sample_blog_post.md` on branch `main`
+> **Pipeline duration:** 11.8s
+
+---
+
+## Summary
+
+✅ **Patch applied.** 5 operation(s) applied.
+
+| Metric | Value |
+|---|---|
+| Issues identified by QA Agent | 5 |
+| Average confidence (QA Agent) | 88.0% |
+| Operations applied | 5 |
+| Lines skipped by Editor Agent (Tier 3) | 0 |
+| Runtime ops failed | 0 |
+| QA Agent loop retries | 0 |
+| Editor Agent loop retries | 0 |
+
+---
+
+## QA Agent Analysis
+
+### Assumptions
+
+I assumed the tone should be professional and authoritative, removing colloquialisms. I treated redundant statistics as errors and flagged unsubstantiated ROI claims as high-severity issues.
+
+### Issues Found
+
+### Line 13 — 🟡 `medium` · `tone` · Confidence: 90% · SVR: ❌
+**Issue:** Use of 'honestly' and 'super-charges' is overly informal for a B2B practitioner audience.
+**Agent 1 Suggested Fix:** `It is a systems problem. Automation is the primary lever for resolving these issues permanently.`
+
+### Line 45 — 🟡 `medium` · `consistency` · Confidence: 95% · SVR: ❌
+**Issue:** The text repeats the exact same statistic about 20-person sales teams and activity volume in line 47, creating redundancy.
+*No direct fix provided.*
+
+### Line 77 — 🔴 `high` · `factual` · Confidence: 85% · SVR: ❌
+**Issue:** Claiming a '3:1 improvement in LTV:CAC ratio' solely from data hygiene automation is an unsubstantiated, hyperbolic metric that lacks credibility.
+**Agent 1 Suggested Fix:** `Teams that deploy the complete four-layer stack consistently see measurable improvements in pipeline velocity and forecast accuracy within the first two quarters.`
+
+### Line 99 — 🟡 `medium` · `tone` · Confidence: 90% · SVR: ❌
+**Issue:** Use of 'super important' is colloquial and lacks the professional register expected by the target audience.
+**Agent 1 Suggested Fix:** `This is a critical requirement that many teams overlook: you must measure the quality of your CRM data over time, rather than relying on point-in-time snapshots.`
+
+### Line 124 — 🟡 `medium` · `clarity` · Confidence: 80% · SVR: ❌
+**Issue:** The jump from 'automation logic outside the CRM' to 'sales reps will naturally close more deals faster' is a logical leap that lacks a clear causal link.
+**Agent 1 Suggested Fix:** `By decoupling automation logic from the CRM, you ensure system stability and scalability. This foundation of reliable data governance directly supports improved lead routing, more accurate forecasting, and increased sales productivity.`
+
+
+---
+
+## Editor Agent Decisions
+
+#### Line 13 — ✏️ `replace`
+**New Text:** `This is a systems problem. Automation is the primary lever for resolving these issues permanently.`
+**Rationale:** Removed informal filler words ('honestly', 'super-charges') to align with a professional B2B practitioner tone.
+
+#### Line 45 — 🗑️ `delete`
+**New Text:** *(none)*
+**Rationale:** Removed redundant sentence to eliminate repetition of the 20-person sales team activity volume statistic.
+
+#### Line 77 — ✏️ `replace`
+**New Text:** `Teams that deploy the complete four-layer stack consistently see measurable improvements in pipeline…`
+**Rationale:** Replaced hyperbolic, unsubstantiated ROI claim with credible, industry-standard performance metrics.
+
+#### Line 99 — ✏️ `replace`
+**New Text:** `This is a critical requirement that many teams overlook: you must measure the quality of your CRM da…`
+**Rationale:** Replaced colloquial 'super important' with professional, precise language.
+
+#### Line 124 — ✏️ `replace`
+**New Text:** `By decoupling automation logic from the CRM, you ensure system stability and scalability. This found…`
+**Rationale:** Corrected the logical leap by explicitly connecting data governance to operational outcomes like routing and forecasting.
+
+
+---
+
+## Tier 3 Lines Skipped by Editor Agent
+
+*Lines with confidence < 0.6 where Agent 2 could not find a suitable alternative.*
+
+*None — Agent 2 found fixes for all verified lines.*
+
+---
+
+## Runtime Skipped Operations
+
+*None.*
+
+---
+
+*Generated automatically by the n8n Two-Agent Blog QA & Auto-Patch workflow.*
+
+---
 <!-- next run will append below -->
