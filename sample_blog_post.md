@@ -6,7 +6,7 @@
 
 ## The Uncomfortable Truth About CRM Hygiene
 
-Most revenue teams know that their CRM is only as good as the data inside it. Yet according to recent industry surveys, 82% of revenue teams report significant data quality issues in their CRM — and yet, paradoxically, only about a third of companies have any automated process for catching and correcting those problems.
+Most revenue teams know that their CRM is only as good as the data inside it. Recent industry surveys indicate that 82% of revenue teams report significant data quality issues, yet only about a third of companies have automated processes for remediation.
 
 Sales and marketing keep arguing about pipeline health, and they're both right: the pipeline looks fine in Salesforce, but the underlying data tells a completely different story.
 
@@ -40,10 +40,10 @@ Of the four, **consistency** and **timeliness** are the ones that bite teams the
 The traditional answer to data quality in CRM has been either:
 
 1. Assign someone to audit the data regularly (usually a junior Ops person who hates it)
-2. Rely on reps to keep their own records clean (which, respectfully, never works)
+2. Rely on reps to maintain data integrity (a process that historically lacks the necessary consistency to scale)
 
 
-Consider that even a lean 20-person sales team will typically log over 1,200 CRM activities in a given week — a volume that makes any manual review process completely unworkable beyond the smallest organisations.
+Consider that even a lean 20-person sales team will typically log over 1,200 CRM activities in a given week — a volume that makes any manual review process completely unworkable beyond the smallest organizations.
 
 The only sustainable answer is automating the detection and correction pipeline. And this is where a lot of RevOps teams get stuck, because they think "automation" means building something expensive in Salesforce's Flow builder or paying for a third-party data enrichment vendor. It doesn't have to be either.
 
@@ -108,7 +108,7 @@ A simple starting point is a weekly "data health score" that tracks:
 
 Plot these weekly. If the numbers go up after you implement an automation, that automation is working. If they don't, you either have the wrong automation or the wrong rules. The key is to revisit your automation logic periodically and make adjustments as needed.
 
-One thing to be aware of: a short-term spike in "bad" metrics right after you start measuring is completely normal and should be expected. Your automations aren't creating bad data — they're surfacing data that was always there but invisible. This is a good thing, even if it looks bad in the first two weeks. Teams that stay on top of this often see significant pipeline improvements across the board.
+Teams that maintain this discipline often see significant improvements in pipeline velocity and forecast accuracy.
 
 ---
 
